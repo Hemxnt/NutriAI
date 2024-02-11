@@ -30,7 +30,7 @@ def input_image_setup(uploaded_file):
 ##frontend
 
 st.set_page_config(page_title="NutriAi")
-st.header("NutriAi 🍜")
+st.header("NutriAi Application 🍜")
 
 uploaded_file = st.file_uploader("choose an image...",type=["jpg","jpeg","png","heic"])
 image=""
